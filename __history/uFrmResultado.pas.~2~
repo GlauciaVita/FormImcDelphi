@@ -1,0 +1,33 @@
+unit uFrmResultado;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  TFrmResultado = class(TForm)
+    LblAltura: TLabel;
+    LblPeso: TLabel;
+    LblGenero: TLabel;
+    LblIMC: TLabel;
+    LblRecebeAltura: TLabel;
+    LblRecebePeso: TLabel;
+    LblRecebeGenero: TLabel;
+    LblResultadoIMC: TLabel;
+    LblMensagem: TLabel;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FrmResultado: TFrmResultado;
+
+implementation
+
+{$R *.dfm}
+
+end.

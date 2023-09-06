@@ -1,0 +1,113 @@
+object FrmPrincipal: TFrmPrincipal
+  Left = 0
+  Top = 0
+  Caption = 'Calculo de IMC'
+  ClientHeight = 250
+  ClientWidth = 544
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object LblAltura: TLabel
+    Left = 56
+    Top = 58
+    Width = 58
+    Height = 26
+    Caption = 'Altura:'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Calibri'
+    Font.Style = []
+    ParentFont = False
+  end
+  object LblPeso: TLabel
+    Left = 56
+    Top = 104
+    Width = 46
+    Height = 26
+    Caption = 'Peso:'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Calibri'
+    Font.Style = []
+    ParentFont = False
+  end
+  object LblGenero: TLabel
+    Left = 56
+    Top = 150
+    Width = 68
+    Height = 26
+    Caption = 'Genero:'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Calibri'
+    Font.Style = []
+    ParentFont = False
+  end
+  object BtnResultado: TButton
+    Left = 160
+    Top = 200
+    Width = 75
+    Height = 25
+    Caption = 'Resultado'
+    TabOrder = 0
+  end
+  object BtnRequisitos: TButton
+    Left = 280
+    Top = 200
+    Width = 81
+    Height = 25
+    Caption = 'Ver Requisitos'
+    TabOrder = 1
+  end
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 544
+    Height = 41
+    Align = alTop
+    Caption = 'Calculadora - Indice de Massa Corporal'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -24
+    Font.Name = 'Calibri'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 2
+    ExplicitLeft = 216
+    ExplicitTop = 16
+    ExplicitWidth = 185
+  end
+  object Edit1: TEdit
+    Left = 130
+    Top = 58
+    Width = 121
+    Height = 27
+    TabOrder = 3
+    Text = 'Edit1'
+  end
+  object Edit2: TEdit
+    Left = 130
+    Top = 104
+    Width = 121
+    Height = 27
+    TabOrder = 4
+    Text = 'Edit2'
+  end
+  object Edit3: TEdit
+    Left = 130
+    Top = 150
+    Width = 121
+    Height = 27
+    TabOrder = 5
+    Text = 'Edit3'
+  end
+end

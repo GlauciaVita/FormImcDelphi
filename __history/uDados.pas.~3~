@@ -1,0 +1,36 @@
+unit uDados;
+
+interface
+
+uses
+  System.SysUtils;
+
+  Type
+    RDados_Pessoa = record
+      Altura: Double;
+      Peso: Double;
+      Genero: String;
+      IMC: String;
+    end;
+
+   function CalcularIMC(p_Peso, p_Altura: Double; p_Sexo: String): String;
+
+  var
+    P_Dados_Pessoa :RDados_Pessoa;
+
+
+implementation
+
+function CalcularIMC(p_Peso, p_Altura: Double; p_Sexo: String): String;
+
+var
+  l_IMC: Double;
+  l_StrIMC: String;
+begin
+    if p_Sexo = '' then
+      raise Exception.Create('Obrigatório informar o sexo');
+
+try
+
+
+end.
